@@ -27,6 +27,12 @@ Construir un dashboard en Tableau que permita analizar:
 - Carga de tickets por equipo, categoría, prioridad y canal.
 - Tendencia mensual de tickets.
 
+## Dashboard
+
+Vista principal del dashboard operativo desarrollado en Tableau:
+
+![Dashboard operativo de soporte](docs/capturas/dashboard-operativo-soporte.png)
+
 ## Herramientas utilizadas
 
 - Python
