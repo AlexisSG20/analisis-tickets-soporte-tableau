@@ -98,6 +98,12 @@ py scripts/revisar_dataset.py
 tableau/analisis-tickets-soporte-tableau.twbx
 ```
 
+## Documentación técnica
+
+La documentación técnica del proyecto describe el caso de negocio, la generación del dataset, las métricas utilizadas, el diseño del dashboard, los principales hallazgos y las mejoras futuras.
+
+[Ver documentación técnica en PDF](docs/documentacion_tecnica_tickets_soporte_tableau.pdf)
+
 ## Estructura del proyecto
 
 ```text
@@ -117,8 +123,9 @@ analisis-tickets-soporte-tableau/
 │   └── analisis-tickets-soporte-tableau.twbx
 │
 ├── docs/
-│   └── capturas/
-│       └── dashboard-operativo-soporte.png
+│   ├── capturas/
+│   │   └── dashboard-operativo-soporte.png
+│   └── documentacion_tecnica_tickets_soporte_tableau.pdf
 │
 ├── requirements.txt
 ├── README.md
