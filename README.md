@@ -33,13 +33,20 @@ Vista principal del dashboard operativo desarrollado en Tableau:
 
 ![Dashboard operativo de soporte](docs/capturas/dashboard-operativo-soporte.png)
 
+Archivo principal del dashboard:
+
+```text
+tableau/analisis-tickets-soporte-tableau.twbx
+```
+
 ## Principales hallazgos
 
-- Se analizaron 2500 tickets de soporte generados de forma sintética.
-- El backlog operativo fue de 700 tickets entre abiertos y en progreso.
-- El cumplimiento de SLA fue de 32.4%, lo que evidencia una oportunidad de mejora en la atención dentro de los tiempos definidos.
-- La mayoría de tickets se concentró en prioridad media.
-- Los tickets resueltos representan el mayor volumen dentro del estado de atención.
+- Se analizaron **2500 tickets de soporte** generados de forma sintética para simular una operación anual de mesa de ayuda.
+- El backlog operativo fue de **700 tickets** entre abiertos y en progreso, lo que permite identificar una carga pendiente relevante para el equipo de soporte.
+- El cumplimiento de SLA fue de **32.4%**, lo que evidencia una oportunidad de mejora en la atención dentro de los tiempos definidos.
+- La mayoría de tickets se concentró en **prioridad media**, lo que sugiere que la operación recibe principalmente incidencias de impacto moderado.
+- Los tickets **resueltos** representan el mayor volumen dentro del estado de atención, lo que indica que una parte importante de la demanda sí fue gestionada durante el periodo.
+- El análisis por categoría y equipo permite identificar áreas con mayor carga operativa y priorizar acciones de seguimiento.
 
 ## Herramientas utilizadas
 
@@ -48,6 +55,44 @@ Vista principal del dashboard operativo desarrollado en Tableau:
 - Tableau
 - CSV
 - Git / GitHub
+
+## Cómo reproducir el proyecto
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/AlexisSG20/analisis-tickets-soporte-tableau.git
+```
+
+2. Entrar a la carpeta del proyecto:
+
+```bash
+cd analisis-tickets-soporte-tableau
+```
+
+3. Instalar las dependencias:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Generar nuevamente el dataset sintético:
+
+```bash
+py scripts/generar_dataset_tickets.py
+```
+
+5. Revisar el dataset generado:
+
+```bash
+py scripts/revisar_dataset.py
+```
+
+6. Abrir en Tableau el archivo:
+
+```text
+tableau/analisis-tickets-soporte-tableau.twbx
+```
 
 ## Estructura del proyecto
 
@@ -65,10 +110,13 @@ analisis-tickets-soporte-tableau/
 │   └── revisar_dataset.py
 │
 ├── tableau/
+│   └── analisis-tickets-soporte-tableau.twbx
 │
 ├── docs/
 │   └── capturas/
+│       └── dashboard-operativo-soporte.png
 │
+├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
@@ -76,6 +124,8 @@ analisis-tickets-soporte-tableau/
 ## Dataset
 
 El dataset fue generado de forma sintética con Python y contiene **2500 tickets de soporte** correspondientes al periodo **enero a diciembre de 2025**.
+
+El archivo CSV utiliza codificación `utf-8-sig` y separador `;`, para facilitar su apertura en Excel con configuración regional en español.
 
 Las columnas principales son:
 
