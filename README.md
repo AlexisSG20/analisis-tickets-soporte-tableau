@@ -33,6 +33,14 @@ Vista principal del dashboard operativo desarrollado en Tableau:
 
 ![Dashboard operativo de soporte](docs/capturas/dashboard-operativo-soporte.png)
 
+## Principales hallazgos
+
+- Se analizaron 2500 tickets de soporte generados de forma sintética.
+- El backlog operativo fue de 700 tickets entre abiertos y en progreso.
+- El cumplimiento de SLA fue de 32.4%, lo que evidencia una oportunidad de mejora en la atención dentro de los tiempos definidos.
+- La mayoría de tickets se concentró en prioridad media.
+- Los tickets resueltos representan el mayor volumen dentro del estado de atención.
+
 ## Herramientas utilizadas
 
 - Python
@@ -107,7 +115,7 @@ Las columnas principales son:
 
 ## Estado del proyecto
 
-En desarrollo.
+Finalizado.
 
 ## Autor
 
