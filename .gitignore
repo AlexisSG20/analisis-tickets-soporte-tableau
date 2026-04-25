@@ -1,0 +1,27 @@
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Tableau temporales
+*.twbr
+*.log
+
+# Excel temporales
+~$*.xlsx
