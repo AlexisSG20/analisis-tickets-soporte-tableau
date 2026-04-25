@@ -33,6 +33,10 @@ Vista principal del dashboard operativo desarrollado en Tableau:
 
 ![Dashboard operativo de soporte](docs/capturas/dashboard-operativo-soporte.png)
 
+Dashboard interactivo publicado en Tableau Public:
+
+[Ver dashboard en Tableau Public](https://public.tableau.com/views/AnlisisOperativodeTicketsdeSoporte/DashboardOperativoSoporte?:language=es-ES&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 Archivo principal del dashboard:
 
 ```text
